@@ -1,0 +1,96 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+        }
+
+        .main-container{
+            height: 100vh;
+        }
+      
+        .navbar-container{
+            height: 50px;
+            padding: 4px 16px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .signup-btn{
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+            padding: 8px 16px;
+            border-radius: 6px;
+            margin-top: 0px;
+        }
+
+        .image-container{
+            height: 50vh;
+            background-color: rgb(254, 127, 127);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(ocean.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+
+        }
+
+        .text-container{
+            color: white;
+            text-align: center;
+            width: 30vw;
+            padding: 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+
+        }
+
+        .searchbar-div{
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+
+        .searchbar-div input{
+            border-radius: 6px;
+            width: 80%;
+            padding: 0px 12px;
+            outline: none;
+            border: none;
+        }
+
+        .cards-container{
+            margin-top: 10vh;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card{
+            text-align: center;
+            width: 20vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            /* background-color: blue; */
+            height: 30vh;
+            padding: 20px 10px;
+        }
+        .card i{
+            font-size: 50px;
+            color: blue;
+        }
+
+        .card p{
+            color: rgb(81, 81, 81);
+        }
